@@ -1,0 +1,126 @@
+HTML {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0%;
+    width: 100%;
+    margin: 0%;
+    background-color: #0C1844;
+    color: #FDF0D5;
+}
+
+header {
+    margin: 0;
+    padding: 1em;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    color: #FDF0D5;
+    background-color: #0C1844;
+    margin-bottom: 2em;
+}
+
+header img {
+    width: 20%;
+}
+
+.menu {
+    padding: 1em;
+    background-color: #0C1844;
+    z-index: 999px;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 0.1em solid #C1121F;
+    box-shadow: 0px 15px 25px -12px #C1121F;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+a {
+    font-size: 1em;
+    color: #FDF0D5;
+}
+
+.titulo {
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+main {
+    margin-top: 5em;
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bloco {
+    display: inline-flex;
+    justify-content: space-around;
+    color: #FFF5E1;
+    text-align: center;
+    border: 0.1em solid #C1121F;
+    border-radius: 15%;
+    box-shadow: 15px 15px 0px 2px #C1121F;
+}
+.bloco img{
+    width: 100%;
+    border-radius: 15%;
+}
+
+.blocoConteudo {
+    margin-left: 2em;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.blocoConteudo div {
+    width: 30%;
+    text-align: center;
+}
+.Objetivos {
+    font-size: 1.5em;
+    text-align: start;
+    padding: 1em 2em 4em 3em;
+    border-radius: 100px 100px 90% 90%;
+    border: 0.5em solid #C1121F;
+}
+
+.analise {
+    width: 25%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-color: red;
+    border-radius: 50px;
+    height: 5em;
+    transition: 0.5s;
+}
+
+.analise:hover {
+    height: 20em;
+    background-color: red;
+}
+.analise p {
+    text-align: justify;
+    width: 75%;
+}
+
+footer {
+    margin-top: 2em;
+    padding: 2em;
+    text-align: center;
+    border-top: 0.5em solid #C1121F;
+    height: 3em;
+}
