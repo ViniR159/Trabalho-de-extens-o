@@ -2,6 +2,10 @@ HTML {
     scroll-behavior: smooth;
 }
 
+.tela100 {
+    width: 100%;
+}
+
 body{
     margin: 0%;
     width: 100%;
@@ -109,12 +113,29 @@ main {
 }
 
 .analise:hover {
-    height: 20em;
+    height: 25em;
     background-color: red;
 }
 .analise p {
     text-align: justify;
     width: 75%;
+}
+
+.airplane {
+    width: 100%;
+}
+
+.airplane img {
+    float: right;
+    width: 6em;
+}
+
+.airplane {
+    float: left;
+}
+
+.airplane :hover {
+    float: right;
 }
 
 footer {
